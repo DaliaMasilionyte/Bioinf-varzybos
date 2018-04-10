@@ -7,14 +7,14 @@ DNR sekai virsti baltymų sekomis būtini du etapai:
 2. Transliacija iš iRNR į aminorūgščių seką pagal genetinį kodą. (3 nukleotidai koduoja vieną aminorūgštį)
 
 
-**Duota:** DNR grandinė 5' -> 3' kryptimi FASTA formatu. 
-**Gauti:** Baltymai (aminorūgščių sekos), kuriuos koduoja grandinė atskirtos eilutėmis
+**Duota:** DNR grandinė 5' -> 3' kryptimi FASTA formatu.  
+**Gauti:** Baltymai (aminorūgščių sekos), kuriuos koduoja grandinė atskirtos eilutėmis  
 
-*FASTA formatas - tekstinis failo formatas skirtas atvaizduoti nukleotidų arba aminorūgščių sekoms naudojant vienos raidės kodą. 
-Kiekvienas įrašas yra sudarytas iš antraštės eilutės ir sekos eilučių. 
-Antraštė prasideda '>' simboliu. 
-Seka gali būti išdėstyta per daugiau nei vieną eilutę. 
-Viename faile gali būti daug įrašų.*
+*FASTA formatas - tekstinis failo formatas skirtas atvaizduoti nukleotidų arba aminorūgščių sekoms naudojant vienos raidės kodą.  
+Kiekvienas įrašas yra sudarytas iš antraštės eilutės ir sekos eilučių.  
+Antraštė prasideda '>' simboliu.   
+Seka gali būti išdėstyta per daugiau nei vieną eilutę.   
+Viename faile gali būti daug įrašų.*  
 
 **Aminorūgščių kodonai**
 ```Python3

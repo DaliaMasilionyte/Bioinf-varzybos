@@ -6,7 +6,7 @@ DNR sekai virsti baltymų sekomis būtini du etapai:
 1. Matricinės DNR transkripcija į iRNR. Atkreipkite dėmesį, kad transkripcija vyksta 3' - > 5' kryptimi.
 2. Transliacija iš iRNR į aminorūgščių seką pagal genetinį kodą. (3 nukleotidai koduoja vieną aminorūgštį)
 
-
+  
 **Duota:** DNR grandinė 5' -> 3' kryptimi FASTA formatu.  
 **Gauti:** Baltymai (aminorūgščių sekos), kuriuos koduoja grandinė atskirtos eilutėmis  
 
@@ -37,7 +37,7 @@ kodonai = {
 	    }
 ```
 
-
+  
 ### Pavyzdys
 
 **Duomenys:**

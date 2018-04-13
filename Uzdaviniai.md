@@ -14,9 +14,11 @@ DNR sekai virsti baltymų sekomis būtini du etapai:
 Kiekvienas įrašas yra sudarytas iš antraštės eilutės ir sekos eilučių.  
 Antraštė prasideda '>' simboliu.   
 Seka gali būti išdėstyta per daugiau nei vieną eilutę.   
-Viename faile gali būti daug įrašų.*  
+Viename faile gali būti daug įrašų.  
+Uždavinyje naudojamas standartinis genetinis kodas.  
+Egzistuoja ir kitokių [genetinių kodų](https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi)*  
 
-**Aminorūgščių kodonai**
+**Standartinio genetinio kodo aminorūgščių kodonai**
 ```Python3
 kodonai = {
 	"UUU": "F", "UUC": "F", "UUA": "L", "UUG": "L",

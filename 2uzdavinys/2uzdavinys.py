@@ -42,4 +42,4 @@ try:
             sequence = match.group(1).replace('\n', '')
             findPosition(MslI, sequence)
 except FileNotFoundError:
-    sys.exit("Provided input file does not exist")
+    sys.exit("Įvesties failas neegzistuoja")

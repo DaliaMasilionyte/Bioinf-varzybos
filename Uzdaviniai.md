@@ -14,7 +14,9 @@ DNR sekai virsti baltymų sekomis būtini du etapai:
 Kiekvienas įrašas yra sudarytas iš antraštės eilutės ir sekos eilučių.  
 Antraštė prasideda '>' simboliu.   
 Seka gali būti išdėstyta per daugiau nei vieną eilutę.   
-Viename faile gali būti daug įrašų.*    
+Viename faile gali būti daug įrašų.*  
+
+    
 Uždavinyje naudojamas standartinis genetinis kodas.  
 Egzistuoja ir kitokių [genetinių kodų](https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi)
 
@@ -60,3 +62,24 @@ MIRLSTMSFRASIA
 MADGDE
 MSP
 ```
+
+
+     
+## Restrikcijos vietos DNR sekoje
+
+Rasti restrikcijos vietas duotoje DNR sekoje.  
+Restrikcijos vietos yra pozicijos, kuriose fermentas perkerpa DNR seką. Paprastai jie yra atpažįstami pagal trumpus, specifinius motyvus.
+
+Šiame uždavinyje ieškosime restrikcijos vietų endonukleazei **MslI**.  
+**MslI** atpažinimo seka yra **CAYNNˆNNRTG**.  
+*R reiškia A arba G, Y reiškia C arba T, N reiškia A arba T, arba C, arba G.  
+Likę nukleotidų [kodai](https://www.bioinformatics.org/sms/iupac.html)*  
+*'^' simbolis nurodo kirpimo vietą*  
+
+
+
+
+
+
+
+

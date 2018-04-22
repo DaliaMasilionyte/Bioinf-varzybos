@@ -74,7 +74,8 @@ Restrikcijos vietos yra pozicijos, kuriose fermentas perkerpa DNR seką. Paprast
 *Nagrinėsime endonukleazes, kurios kerpa dvigubos grandinės DNR sekas.*
 **MslI** atpažinimo seka 5' -> 3' kryptimi yra **CAYNNˆNNRTG**.
 **PpuMI** atpažinimo seka 5' -> 3' kryptimi yra **RGˆGWCCY**.
-**AvaI** atpažinimo seka 5' -> 3' kryptimi yra **C^YCGRG**.
+**AvaI** atpažinimo seka 5' -> 3' kryptimi yra **C^YCGRG**.    
+
 *R reiškia A arba G, Y - C arba T, N - A arba T, arba C, arba G, W - A arba T.
 Likę nukleotidų [kodai](https://www.neb.com/tools-and-resources/usage-guidelines/single-letter-codes)*
 *'^' simbolis nurodo kirpimo vietą. Pozicija skaičiuojama bazės, esančios už simbolio.*    

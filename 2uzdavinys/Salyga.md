@@ -16,7 +16,7 @@ Likę nukleotidų [kodai](https://www.neb.com/tools-and-resources/usage-guidelin
 **Svarbu: Sekos gali būti pateiktos tiek mažosiomis, tiek didžiosiomis raidėmis.**
 
 **Duota:** DNR grandinė 5' -> 3' kryptimi FASTA formatu iki 10000 bazių ilgio.  
-**Gauti:** Restrikcijos vietos duotojoje sekoje atskirtos vienetiniais tarpais; naujoje eilutėje skaičius kiek iš viso buvo rasta restrikcijos vietų    
+**Gauti:** Restrikcijos vietos duotojoje sekoje atskirtos vienetiniais tarpais; naujoje eilutėje skaičius kiek iš viso buvo rasta restrikcijos vietų. Pirmiausiai nurodoma endonukleazės MslI atpažinimo vietos ir pozicijų skaičius, tada PpuMI ir galiausiai AvaI endonukleazės.
 
 **Užuomina: Uždavinį padės išspręsti [reguliarios išraiškos](https://docs.python.org/3/library/re.html)**
 

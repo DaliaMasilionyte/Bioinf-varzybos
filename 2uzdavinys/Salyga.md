@@ -11,7 +11,7 @@ Restrikcijos vietos yra pozicijos, kuriose fermentas perkerpa DNR seką. Paprast
 
 
 *R reiškia A arba G, Y - C arba T, N - A arba T, arba C, arba G, W - A arba T.
-Likę nukleotidų [kodai](https://www.neb.com/tools-and-resources/usage-guidelines/single-letter-codes)*
+Likę nukleotidų [kodai](https://www.neb.com/tools-and-resources/usage-guidelines/single-letter-codes)*  
 *'^' simbolis nurodo kirpimo vietą. Pozicija skaičiuojama bazės, esančios už simbolio.*    
 
 **Svarbu: Biologams, ne taip kaip kitiems informatikams, pirmas sekos nukleotidas yra pozicijoje 1, o ne 0.**     

@@ -3,10 +3,13 @@
 Rasti restrikcijos vietas duotoje DNR sekoje.  
 Restrikcijos vietos yra pozicijos, kuriose fermentas perkerpa DNR seką. Paprastai jie yra atpažįstami pagal trumpus, specifinius motyvus.
 
-Šiame uždavinyje ieškosime restrikcijos vietų endonukleazei **MslI**.  
-**MslI** atpažinimo seka 5' -> 3' kryptimi yra **CAYNNˆNNRTG**.  
-*R reiškia A arba G, Y - C arba T, N - A arba T, arba C, arba G.  
-Likę nukleotidų [kodai](https://www.bioinformatics.org/sms/iupac.html)*  
+Šiame uždavinyje ieškosime restrikcijos vietų endonukleazėms **MslI, PpuMI, AvaI**.
+*Nagrinėsime endonukleazes, kurios kerpa dvigubos grandinės DNR sekas.*
+**MslI** atpažinimo seka 5' -> 3' kryptimi yra **CAYNNˆNNRTG**.
+**PpuMI** atpažinimo seka 5' -> 3' kryptimi yra **RGˆGWCCY**.
+**AvaI** atpažinimo seka 5' -> 3' kryptimi yra **C^YCGRG**.
+*R reiškia A arba G, Y - C arba T, N - A arba T, arba C, arba G, W - A arba T.
+Likę nukleotidų [kodai](https://www.neb.com/tools-and-resources/usage-guidelines/single-letter-codes)*
 *'^' simbolis nurodo kirpimo vietą. Pozicija skaičiuojama bazės, esančios už simbolio.*    
 
 **Svarbu: Biologams, ne taip kaip kitiems informatikams, pirmas sekos nukleotidas yra pozicijoje 1, o ne 0.**     
@@ -23,12 +26,20 @@ Likę nukleotidų [kodai](https://www.bioinformatics.org/sms/iupac.html)*
 **Duomenys:**
 ```FASTA
 >seq
-CGGgCATACcCGTGCAtAGCCGTG
+CGGgCATACcCGTGCAtAGCCGTGGGTCCTCGGG
+AGCCGTGGGTCCTCGGG
+
+AGCCGTGGGTCCTCGGG
 ```
 **Rezultatas:**
 ```
 10 20 
 2
+26 43 60
+3
+30 47 64
+3
+
 ```
 
 

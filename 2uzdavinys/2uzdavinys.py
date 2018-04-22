@@ -16,6 +16,9 @@ except:
 # Suformuojama reguliari išraiška
 # Kaip grupė išskiriamas restrikcijos vietos nukleotidas
 MslI = '(?:CA[CT][AGTC][AGTC]([AGTC])[AGTC][AG]TG).*?'
+PpuMI = '(?:[AG]G(G)[AT]CC[CT]).*?'
+AvaI = '(?:C([CT])CG[AG]G).*?'
+
 
 # Funkcija, kuri randa restrikcijos vietą ir visą pozicijų kiekį
 def findPosition(pattern, text):
@@ -28,6 +31,7 @@ def findPosition(pattern, text):
         writeToFile(position)
     writeToFile("\n")
     writeToFile(str(count))
+    writeToFile ("\n")
 
 # Funkcija kuri rašo į išvesties failą
 def writeToFile(string):
@@ -41,5 +45,7 @@ try:
             # Ištriname eilučių skirtukus
             sequence = match.group(1).replace('\n', '')
             findPosition(MslI, sequence)
+            findPosition (PpuMI, sequence)
+            findPosition (AvaI, sequence)
 except FileNotFoundError:
     sys.exit("Įvesties failas neegzistuoja")

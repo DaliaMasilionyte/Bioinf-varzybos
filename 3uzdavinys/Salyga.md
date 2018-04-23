@@ -36,6 +36,6 @@ TCG
 
 
     
-Šaltiniai:
-Langtangen, Hans Petter, 2009. A Primer on Scientific Programming with Python.
+Šaltiniai:  
+*Langtangen, Hans Petter, 2009. A Primer on Scientific Programming with Python.*
 

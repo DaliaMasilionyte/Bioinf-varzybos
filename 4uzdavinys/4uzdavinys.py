@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import sys
-import operator
 import re
 from re import finditer
 
@@ -33,7 +32,8 @@ try:
             # kuriame saugomi dažniausiai pasikartojančių motyvų raktai
             allFrequentMax = [k for k, v in motifs.items() if v == max(motifs.values())]
             for item in allFrequentMax:
-                print ("{} {}".format (item, motifs[item]))
+                with open(outputFile, 'w') as output:
+                	output.write("{} {}".format (item, motifs[item]))
 
 except FileNotFoundError:
     sys.exit ("Įvesties failas neegzistuoja")

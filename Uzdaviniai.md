@@ -112,20 +112,20 @@ AGCCGTGGGTCCTCGGG
 
     
 
-## 3. Markovo grandinės mutacijų tikimybių modelis
+## 3. Mutacijų tikimybių modelis
 
 Mutacijų greitis tam tikroje pozicijoje priklauso nuo toje pozicijoje esančio nukleotido. Yra ne viena priežastis, kodėl stebimi mutacijų greičiai skiriasi tarp skirtingų bazių. Viena iš priežasčių yra ta, kad pakitimus generuoja skirtingi mechanizmai. Kita priežastis yra, kad gyvose ląstelėse vyksta sudėtingi reparacijos procesai ir jų efektyvumas skiriasi skirtingiems nukleotidams.    
 
 Nukleotidų mutacijos gali būti modeliuojamos naudojant tikimybes, kad vienas nukleotidas pavirs kitu. Kiekvienas nukleotidas (A, C, T, G) gali su tikimybe x <= 1 mutuoti į bet kurį iš keturių nukleotidų. Visų mutacijų tikimybių suma yra lygi 1, nes nukleotidas būtinai arba lieka toks pats, arba virsta kitu nukleotidu.  
 *Pvz: A išlieka A su tikimybe 0.4, A virsta T su tikimybe 0.2, A virsta C su tikimybe 0.1 A virsta G su tikimybe 0.3. Visų tikimybių suma = 1*    
 
-Reikia apskaičiuoti, naudojant duotąjį Markovo tikimybių modelį, tikimybę, kad viena seka po vieno pasikeitimo taps antrąją seka.
+Reikia apskaičiuoti, naudojant duotąjį tikimybių modelį, tikimybę, kad viena seka po vieno pasikeitimo taps antrąją seka.
 
 
-**Duota:** Markovo tikimybių modelio failas ir failas su dvejomis DNR sekomis atskirtomis eilutėmis 
+**Duota:** Tikimybių modelio failas ir failas su dvejomis DNR sekomis atskirtomis eilutėmis 
 **Gauti:** Tikimybę, kad po vienos mutacijos pirmojoje DNR sekoje, gausime antrąją DNR seką  
 
-**Užuomina: Markovo modelį patogu laikyti [dictionary duomenų struktūroje](https://docs.python.org/3/tutorial/datastructures.html)**
+**Užuomina: Tikimybių modelį patogu laikyti [dictionary duomenų struktūroje](https://docs.python.org/3/tutorial/datastructures.html)**
 
 ### Pavyzdys  
 

@@ -20,7 +20,7 @@ try:
         # Taip galime rasti daugiau nei vieną fasta įrašą faile
         for match in finditer (r'^>.*$([^>]+)', input.read (), re.M | re.I):
             # Ištriname eilučių skirtukus
-            sequence = match.group (1).replace ('\n', '')
+            sequence = match.group(1).replace('\n', '')
             # Ieškome visų 6 nukleotidų substringų
             for nucleotide in range (len (sequence) - MOTIF_LENGTH + 1):
                 motif = sequence[nucleotide:nucleotide + MOTIF_LENGTH]

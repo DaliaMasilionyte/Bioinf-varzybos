@@ -178,7 +178,24 @@ CCAAAT 3
 CAAATG 3
 ```
 
+## 5. Sekos fragmentų duplikatų šalinimas    
+
+Laboratorijoje biochemikai [sekvenavo](https://en.wikipedia.org/wiki/DNA_sequencing) DNR seką, tačiau vienoje vietoje sekos fragmentas duplikavosi keletą kartų. Bioinformatikai gautus duomenis turi analizuoti, tačiau pradžioje juos reikia sutvarkyti. Jūsų užduotis rasti fragmentą, kuris dupikavosi ir iškirpti visus duplikatus, paliekant tik vieną nesikartojantį fragmentą sekoje. Jūs žinote, kokio ilgio (kiek nukleotidų) yra ieškomas fragmentas ir kiek kartų jis sekoje iš eilės pasikartoja.    
+
+**Duota:** Pirmoje eilutėje: Skaičius n - ieškomo fragmento ilgis, skaičius k - fragmento pasikartojimų skaičius  
+Antroje eilutėje DNR grandinė iki 1500 bazių ilgio.
+**Gauti:** DNR grandinė, su iškirptomis fragmento kopijomis
 
 
+### Pavyzdys  
 
+**Duomenys:**
+```
+
+```
+
+**Rezultatas:**
+```
+
+```
 

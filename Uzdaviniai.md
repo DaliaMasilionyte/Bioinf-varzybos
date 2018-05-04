@@ -7,7 +7,7 @@ DNR sekai virsti baltymų sekomis būtini du etapai:
 2. Transliacija iš iRNR į aminorūgščių seką pagal genetinį kodą. (3 nukleotidai koduoja vieną aminorūgštį)
 
   
-**Duota:** DNR grandinė 5' -> 3' kryptimi FASTA formatu iki 1500 bazių ilgio.  
+**Duota:** DNR grandinė 5' -> 3' kryptimi FASTA formatu iki 1500 bazių ilgio.    
 **Gauti:** Baltymai (aminorūgščių sekos), kuriuos koduoja grandinė atskirtos eilutėmis  
 
 *FASTA formatas - tekstinis failo formatas skirtas atvaizduoti nukleotidų arba aminorūgščių sekoms naudojant vienos raidės kodą.  
@@ -83,7 +83,7 @@ Likę nukleotidų [kodai](https://www.neb.com/tools-and-resources/usage-guidelin
 **Svarbu: Biologams, ne taip kaip kitiems informatikams, pirmas sekos nukleotidas yra pozicijoje 1, o ne 0.**     
 **Svarbu: Sekos gali būti pateiktos tiek mažosiomis, tiek didžiosiomis raidėmis.**
 
-**Duota:** DNR grandinė 5' -> 3' kryptimi FASTA formatu iki 10000 bazių ilgio.  
+**Duota:** DNR grandinė 5' -> 3' kryptimi FASTA formatu iki 10000 bazių ilgio.    
 **Gauti:** Restrikcijos vietos duotojoje sekoje atskirtos vienetiniais tarpais; naujoje eilutėje skaičius kiek iš viso buvo rasta restrikcijos vietų. Pirmiausiai nurodoma endonukleazės MslI atpažinimo vietos ir pozicijų skaičius, tada PpuMI ir galiausiai AvaI endonukleazės.
 
 **Užuomina: Uždavinį padės išspręsti [reguliarios išraiškos](https://docs.python.org/3/library/re.html)**
@@ -122,7 +122,7 @@ Nukleotidų mutacijos gali būti modeliuojamos naudojant tikimybes, kad vienas n
 Reikia apskaičiuoti, naudojant duotąjį tikimybių modelį, tikimybę, kad viena seka po vieno pasikeitimo taps antrąją seka.
 
 
-**Duota:** Tikimybių modelio failas ir failas su dvejomis DNR sekomis atskirtomis eilutėmis 
+**Duota:** Tikimybių modelio failas ir failas su dvejomis DNR sekomis atskirtomis eilutėmis    
 **Gauti:** Tikimybę, kad po vienos mutacijos pirmojoje DNR sekoje, gausime antrąją DNR seką  
 
 **Užuomina: Tikimybių modelį patogu laikyti [dictionary duomenų struktūroje](https://docs.python.org/3/tutorial/datastructures.html)**
@@ -159,7 +159,7 @@ Motyvas - tai trumpa, kelių nukleotidų seka, kuri gali dažnai kartotis DNR se
 
 Šioje užduotyje reikia rasti duotojoje DNR sekoje dažniausiai pasikartojantį 6-merą (6 nukleotidų ilgio motyvą).  
 
-**Duota:** DNR grandinė 5' -> 3' kryptimi FASTA formatu iki 10000 bazių ilgio.
+**Duota:** DNR grandinė 5' -> 3' kryptimi FASTA formatu iki 10000 bazių ilgio.    
 **Gauti:** Dažniausiai pasikartojantis 6 nukleotidų motyvas ir skaičius, kiek kartų motyvas sekoje pasikartojo. Gali būti daugiau nei vienas tiek pat kartų pasikartojantis motyvas, todėl jei jų yra daugiau informacija apie kiekvieną reikia pateikti skirtingose eilutėse.  
 
 

@@ -8,7 +8,7 @@ Nukleotidų mutacijos gali būti modeliuojamos naudojant tikimybes, kad vienas n
 Reikia apskaičiuoti, naudojant duotąjį tikimybių modelį, tikimybę, kad viena seka po vieno pasikeitimo taps antrąją seka.
 
 
-**Duota:** Tikimybių modelio failas ir failas su dvejomis DNR sekomis atskirtomis eilutėmis 
+**Duota:** Tikimybių modelio failas ir failas su dvejomis DNR sekomis atskirtomis eilutėmis    
 **Gauti:** Tikimybę, kad po vienos mutacijos pirmojoje DNR sekoje, gausime antrąją DNR seką  
 
 **Užuomina: Tikimybių modelį patogu laikyti [dictionary duomenų struktūroje](https://docs.python.org/3/tutorial/datastructures.html)**

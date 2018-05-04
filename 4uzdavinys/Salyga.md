@@ -4,7 +4,7 @@ Motyvas - tai trumpa, kelių nukleotidų seka, kuri gali dažnai kartotis DNR se
 
 Šioje užduotyje reikia rasti duotojoje DNR sekoje dažniausiai pasikartojantį 6-merą (6 nukleotidų ilgio seka).  
 
-**Duota:** DNR grandinė 5' -> 3' kryptimi FASTA formatu iki 10000 bazių ilgio.
+**Duota:** DNR grandinė 5' -> 3' kryptimi FASTA formatu iki 10000 bazių ilgio.    
 **Gauti:** Dažniausiai pasikartojantis 6 nukleotidų motyvas ir skaičius, kiek kartų motyvas sekoje pasikartojo. Gali būti daugiau nei vienas tiek pat kartų pasikartojantis motyvas, todėl jei jų yra daugiau informacija apie kiekvieną reikia pateikti skirtingose eilutėse.      
 
 

@@ -31,4 +31,6 @@ for i in range(len(sequence)):
 		continuePosition = i+(fragmentLength*numOfFragments)
 
 newSequence = "{}{}".format(sequence[:cutPosistion], sequence[continuePosition:])
-print(newSequence)
+
+with open(outputFile, 'w') as output:
+    output.write(newSequence)

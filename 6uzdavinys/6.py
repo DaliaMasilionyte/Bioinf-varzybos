@@ -18,18 +18,18 @@ except:
 def divide(coordinate):
     return coordinate / numOfAtoms
 
-# try:
-with open(inputFile, 'r') as inputFile:
-    for line in inputFile:
-        atom = line.split()
-        x += float(atom[1])
-        y += float(atom[2])
-        z += float(atom[3])
-        numOfAtoms += 1
+try:
+    with open(inputFile, 'r') as inputFile:
+        for line in inputFile:
+            atom = line.split()
+            x += float(atom[1])
+            y += float(atom[2])
+            z += float(atom[3])
+            numOfAtoms += 1
 
-    x = divide(x)
-    y = divide(y)
-    z = divide(z)
+        x = divide(x)
+        y = divide(y)
+        z = divide(z)
 
 except FileNotFoundError:
     sys.exit("Įvesties failas neegzistuoja")

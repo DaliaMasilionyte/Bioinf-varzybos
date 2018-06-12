@@ -15,7 +15,7 @@ try:
 except:
     sys.exit('Reikia įvesti dviejų failų pavadinimus')
 
-# Visos sekos vienodo ilgio
+# Visos sekos vienodo ilgio, inicializuojame sąrašus nuliais
 def calculateFrequencies(sequences):
     sequenceLength = len(sequences[0])
     frequencyMatrix = {
@@ -25,21 +25,29 @@ def calculateFrequencies(sequences):
         'T' : [0] * sequenceLength
     }
     for sequence in sequences:
+        # Enumeracija padeda lengvai pasiekti kiekvieną sekos elementą
         for index, nucleotide in enumerate(sequence):
             frequencyMatrix[nucleotide][index] += 1
     return frequencyMatrix
 
 def findConsensus(sequenceLength, frequencyMatrix):
     consensus = ""
+    # Skaičiuojami iš dažnio matricos, kuris nukleotidas kiekvienoje vietoje 
+    # pasikartoja dažniausiai
     for i in range(sequenceLength):
         maxFrequency = -1
         mostFrequentNucleotide = None
         for nucleotide in "ATGC":
+            # Kiekvieną lyginame su dažniausiai pasikartojusiu skaičiumi
             if frequencyMatrix[nucleotide][i] > maxFrequency:
                 maxFrequency = frequencyMatrix[nucleotide][i]
                 mostFrequentNucleotide = nucleotide
-        # Kadangi galima pateikti bet kurį dažniausiai sutinkamą nukleotidą,
-        # kitų nebetikriname
+            # Jei yra daugiau nei vienas dažniausiai pasiakrtojantis
+            # pagal sąlygą rašomas - simbolis (nepavyko identifikuoti)
+            elif frequencyMatrix[nucleotide][i] == maxFrequency:
+                mostFrequentNucleotide = '-'
+        # Sudaroma labiausiai tikėtina protėvio seka iš dažniausiai 
+        # pasikartojusių nukleotidų
         consensus += mostFrequentNucleotide
     return consensus
 
@@ -52,8 +60,8 @@ try:
             sequences.append(sequence)
         frequencyMatrix = calculateFrequencies(sequences)
         consensus = findConsensus(len(sequences[0]), frequencyMatrix)
-        print(consensus)
-
+        with open(outputFile, 'w') as output:
+            output.write(consensus)
 
 except FileNotFoundError:
     sys.exit("Įvesties failas neegzistuoja")

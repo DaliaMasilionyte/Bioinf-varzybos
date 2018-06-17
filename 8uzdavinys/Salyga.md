@@ -23,10 +23,10 @@ aa - homozigotinis recesyvinis organizmo faktorius.*
 
 **Duomenys:**
 ```
-
+1 2 2
 ```
 
 **Rezultatas:**
 ```
-
+0.675
 ```

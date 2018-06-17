@@ -155,7 +155,7 @@ TCG
 
 ## 4. Rasti motyvą DNR sekoje
 
-Motyvas - tai trumpa, kelių nukleotidų seka, kuri gali dažnai kartotis DNR sekoje ir tikėtina, kad turi biologinę prasmę. Dažnai tai būna specifinės baltymų, tokių kaip nukleazės ar transkripcijos faktoriai, prisijungimo vietas. Kiti motyvai būna svarbūs RNR lygyje, susijusiame su ribosomų prisijungimu, informarcinės RNR apdorojimu ir transkripcijos terminacija.    
+Motyvas - tai trumpa, kelių nukleotidų seka, kuri gali dažnai kartotis DNR sekoje ir tikėtina, kad turi biologinę prasmę. Dažnai tai būna specifinės baltymų, tokių kaip nukleazės ar transkripcijos faktoriai, prisijungimo vietos. Kiti motyvai būna svarbūs RNR lygyje, susijusiame su ribosomų prisijungimu, informarcinės RNR apdorojimu ir transkripcijos terminacija.    
 
 Šioje užduotyje reikia rasti duotojoje DNR sekoje dažniausiai pasikartojantį 6-merą (6 nukleotidų ilgio motyvą).  
 
@@ -180,7 +180,7 @@ CAAATG 3
 
 ## 5. Sekos fragmentų duplikatų šalinimas    
 
-Laboratorijoje biochemikai [sekvenavo](https://en.wikipedia.org/wiki/DNA_sequencing) DNR seką, tačiau vienoje vietoje sekos fragmentas duplikavosi keletą kartų. Bioinformatikai gautus duomenis turi analizuoti, tačiau pradžioje juos reikia sutvarkyti. Jūsų užduotis rasti fragmentą, kuris dupikavosi ir iškirpti visus duplikatus, paliekant tik vieną nesikartojantį fragmentą sekoje. Jūs žinote, kokio ilgio (kiek nukleotidų) yra ieškomas fragmentas ir kiek kartų jis sekoje iš eilės pasikartoja.    
+Laboratorijoje biochemikai [sekvenavo](https://en.wikipedia.org/wiki/DNA_sequencing) DNR seką, tačiau vienoje vietoje sekos fragmentas duplikavosi keletą kartų. Bioinformatikai gautus duomenis turi analizuoti, tačiau pradžioje juos reikia sutvarkyti. Jūsų užduotis rasti fragmentą, kuris duplikavosi ir iškirpti visus duplikatus, paliekant tik vieną nesikartojantį fragmentą sekoje. Jūs žinote, kokio ilgio (kiek nukleotidų) yra ieškomas fragmentas ir kiek kartų jis sekoje iš eilės pasikartoja.    
 
 **Duota:** Pirmoje eilutėje: Skaičius **n** - ieškomo fragmento ilgis (iki 30 nukleotidų), skaičius **k** - fragmento pasikartojimų skaičius ne didesnis nei 20  
 Antroje eilutėje DNR grandinė iki 1500 bazių ilgio.    
@@ -294,6 +294,36 @@ aa - homozigotinis recesyvinis organizmo faktorius.*
 
 *Poruotis gali bet kurie du organizmai.*
 
+### Pavyzdys  
+
+**Duomenys:**
+```
+
+```
+
+**Rezultatas:**
+```
+
+```
 
 
-## 9. Palyginti dvi sekas ir rasti jų panašumo koeficientą
+## 9. Taškinės mutacijos
+
+Mutacijos skirstomos į skirtingame lygmenyje nutinkančias - genų, chromosomų ir chromosomų rinkinio. Taškinės mutacijos - vienos iš genų mutacijų, dar skirstomos į tranzicijas ir transversijas. Tranzicijų metu vienas purinas virsta kitu purinu (A <-> G), arba vienas pirimidinas virsta kitu pirimidinu (T <-> C), taigi nepakinta nukleotido struktūra. Kitą vertus, transversijų atveju, purinas virsta pirimidinu ir šis pakitimas yra daug drastiškesnis cheminės strukūtros atžvilgiu, todėl, transversijų pasitaiko daug rečiau nei tranzicijų.    
+
+
+
+**Duota:** Dvi tokios pat ilgio DNR grandinės FASTA formatu iki 500 bazių ilgio.    
+**Gauti:** Santykį tranzicijų ir transversijų skaičiaus (tranzicijos/transversijos) tarp dviejų DNR sekų.   
+
+### Pavyzdys  
+
+**Duomenys:**
+```
+
+```
+
+**Rezultatas:**
+```
+
+```

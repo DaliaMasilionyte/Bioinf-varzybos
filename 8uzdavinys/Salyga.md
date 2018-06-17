@@ -17,3 +17,16 @@ aa - homozigotinis recesyvinis organizmo faktorius.*
 **Gauti:** Tikimybę, kad dviejų atsitiktinai iš populiacijos išrinktų individų palikuonis turės dominuojantį bruožą.    
 
 *Poruotis gali bet kurie du organizmai.*
+
+
+### Pavyzdys  
+
+**Duomenys:**
+```
+
+```
+
+**Rezultatas:**
+```
+
+```

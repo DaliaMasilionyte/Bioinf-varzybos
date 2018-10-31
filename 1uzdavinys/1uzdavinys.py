@@ -3,6 +3,7 @@ import sys
 import re
 from re import finditer
 
+
 # Komandine eilute paduodami įvesties ir išvesties failai
 try:
     if len(sys.argv) == 3:
@@ -68,6 +69,7 @@ def writeToFile(string):
 
 try:
     with open (inputFile, 'r', encoding='utf-8') as input:
+        countSequences = 0
         # group 1 - seka
         # Taip galime rasti daugiau nei vieną fasta įrašą faile
         for match in finditer (r'^>.*$([^>]+)', input.read(), re.M | re.I):
@@ -87,6 +89,7 @@ try:
                     break
                 aminoAcidSeq = translation(mRNA, start, end)
                 currentPos = end
-                writeToFile(aminoAcidSeq)
+                countSequences+= 1
+        writeToFile(str(countSequences))
 except FileNotFoundError:
     sys.exit ("Įvesties failas neegzistuoja")

@@ -5,16 +5,19 @@ Mutacijos skirstomos į skirtingame lygmenyje nutinkančias - genų, chromosomų
 
 
 **Duota:** Dvi tokios pat ilgio DNR grandinės FASTA formatu iki 500 bazių ilgio.    
-**Gauti:** Santykį tranzicijų ir transversijų skaičiaus (tranzicijos/transversijos) tarp dviejų DNR sekų.   
+**Gauti:** Santykį tranzicijų ir transversijų skaičiaus (tranzicijos/transversijos) tarp dviejų DNR sekų. Rezultatą pateikti apvalinus iki dviejų skaičių po kablelio formatu.
 
 ### Pavyzdys  
 
 **Duomenys:**
 ```
-
+> Sequence 9504
+CTTGATCGCGGTATGCCCTATACAT
+> Sequence 7016
+TTTGTTCACGGTATACTATGTGGAC
 ```
 
 **Rezultatas:**
 ```
-
+2.33
 ```

@@ -29,9 +29,9 @@ def findPosition(pattern, text):
         # Pozicijas skaičiuojame nuo 1
         position = '{} '.format(match.start(1) + 1)
         writeToFile(position)
-    writeToFile("\n")
+    writeToFile("[")
     writeToFile(str(count))
-    writeToFile ("\n")
+    writeToFile("] ")
 
 # Funkcija kuri rašo į išvesties failą
 def writeToFile(string):
@@ -45,7 +45,7 @@ try:
             # Ištriname eilučių skirtukus
             sequence = match.group(1).replace('\n', '')
             findPosition(MslI, sequence)
-            findPosition (PpuMI, sequence)
-            findPosition (AvaI, sequence)
+            findPosition(PpuMI, sequence)
+            findPosition(AvaI, sequence)
 except FileNotFoundError:
     sys.exit("Įvesties failas neegzistuoja")

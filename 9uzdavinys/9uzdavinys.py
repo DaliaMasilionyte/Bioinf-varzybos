@@ -27,7 +27,7 @@ try:
     else:
         raise TypeError
 except:
-    sys.exit ('Reikia įvesti dviejų failų pavadinimus')
+    sys.exit('Reikia įvesti dviejų failų pavadinimus')
 
 def countMutations(seq1, seq2, mutationType):
     counter = 0
